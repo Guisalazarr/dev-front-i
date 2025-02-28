@@ -12,7 +12,7 @@ const BookList = () => {
             {dataBase.map((item, index)=>{
                 return(
                     <li key={index}>
-                        {item.title} - {item.author} - {item.date} - <button>Excluir</button>
+                        {item.title} - {item.author} - {item.date} - <button>Editar</button> <button>Excluir</button>
                     </li>           
                 )
             })}
