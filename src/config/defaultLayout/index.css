@@ -1,0 +1,29 @@
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+body{
+    background-color: #f7faef;
+}
+  
+h1{
+font-size: 50px;
+}
+
+p{
+    font-size: 18px;
+}
+
+  
+li{
+    margin: 5px;
+}
+
+.linkHover:hover{
+    color: blue
+}

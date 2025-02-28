@@ -1,14 +1,12 @@
-import BookForm from "../../components/BookForm"
-import Navbar from "../../components/Navbar"
+import BookForm from "./components/BookForm"
+import Header from "../../config/defaultLayout/components/Header"
+import './index.css'
 
 const  Register = () => {
     return (
         <>   
-            <Navbar/>
-            <div className="container">
-                <h1>Cadastrar</h1>
-                <BookForm/>
-            </div>    
+            <Header title='Cadastrar'/>
+            <BookForm/>   
         </>
     )
 }

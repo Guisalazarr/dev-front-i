@@ -1,15 +1,11 @@
-import Navbar from "../../components/Navbar"
+import Header from '../../config/defaultLayout/components/Header'
 
 const Home = () => {
 
     return (
-        <>  
-            <Navbar/>
-            
-            <div className="container">
-            <h1>Página Inicial</h1>
+        <>          
+            <Header title='Página Inicial'/>
             <p>Bem-vindo ao Reading Journal!</p>
-            </div>
         </>
 
     )

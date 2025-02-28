@@ -4,16 +4,17 @@ import Home from "../pages/Home"
 import About from "../pages/About";
 import Register from "../pages/Register";
 import ListBooks from "../pages/ListBooks";
+import DefaultLayout from "../config/defaultLayout";
 
 
 const AppRoutes = () => {
    return(
        <BrowserRouter>
         <Routes>
-            <Route path="/" element = {<Home />} />
-            <Route path="/about" element = {<About />} />
-            <Route path="/register" element = {<Register />} />
-            <Route path="/listBooks" element = {<ListBooks />} />
+            <Route path="/" element = {<DefaultLayout component={<Home />}/>} />
+            <Route path="/about" element = {<DefaultLayout component={<About />}/>}/>
+            <Route path="/register" element = {<DefaultLayout component={<Register />}/>}/>
+            <Route path="/listBooks" element = {<DefaultLayout component={<ListBooks />}/>}/>
         </Routes>
        </BrowserRouter>
    )

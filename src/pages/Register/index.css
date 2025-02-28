@@ -1,0 +1,17 @@
+form{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+  }
+  
+  button {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+  }
+  input{
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+    height: 15px;
+  }
